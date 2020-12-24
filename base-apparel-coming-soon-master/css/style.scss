@@ -11,6 +11,7 @@ $Dark-Grayish-Red: hsl(0, 6%, 24%);
 body{
     font-size: 16px;
     font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
 }
 main{
     height: 100vh;
@@ -21,9 +22,10 @@ main{
     }
     .content{
         width: 800px;
+        height: 100vh;
         padding-top: 60px;
         padding-left: 150px;
-            background: url(../images/bg-pattern-desktop.svg);
+        background: url(../images/bg-pattern-desktop.svg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
