@@ -151,7 +151,9 @@ form label {
 }
 
 @media only screen and (max-width:375px) {
-   
+   body{
+       background-image: url(../images/bg-intro-mobile.png);
+   }
     main{
         max-width: 375px;
         display: block;
